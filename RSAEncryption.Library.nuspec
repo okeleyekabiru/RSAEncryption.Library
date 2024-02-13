@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RSAEncryption.Library</id>
+    <version>1.0.0</version>
+    <authors>Kabiru Okeleye</authors>
+    <owners>Kabiru Okeleye</owners> 
+    <projectUrl>https://github.com/okeleyekabiru/RSAEncryption.Library</projectUrl>
+    <license type="expression">MIT</license>
+    <description>RSAEncryption.Library is a library that provides easy-to-use RSA encryption and decryption functionality for enhancing security in .NET applications.</description>
+    <tags>rsa encryption security cryptography</tags> 
+    <readme>docs\README.md</readme>
+    <dependencies>
+     <dependency id="BouncyCastle.Cryptography" version="2.3.0" /> 
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\README.md" target="docs\" />
+  </files>
+</package>
